@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.burger_menu {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9% 9%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.logo_icon {
+    font-size: 38px;
+}
+
+.logo_title {
+    color: #FA793C;
+    font-family: 'Pridi', serif;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+ul {
+    display: flex;
+    column-gap: 32px;
+}
+
+a {
+    color: #000;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.user {
+    font-size: 24px;
+}
+
+.section_1 {
+    height: 550px;
+    position: relative;
+    margin-bottom: 130px;
+    background-color: red;
+}
+
+.section_1_cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_1_article {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 81.94%;
+}
+
+.section_1_title {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.section_1_p {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.section_2 {
+    height: 453px;
+    margin: 130px 0;
+    padding-inline: 9.02%;
+    background-color: greenyellow;
+}
+
+.discovery {
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.discovery_img {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article_container {
+    display: flex;
+    column-gap: 1.38%;
+    margin-top: 34px;
+}
+
+.discovery_text_card {
+    border: 1px solid #000;
+    padding: 16px 16px;
+}
+
+.discovery_title {
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.discovery_p {
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.time_line {
+    display: flex;
+    column-gap: 11px;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.discovery_clock {
+    font-size: 24px;
+}
+
+.discovery_time {
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_3 {
+    /* height: 479px; */
+    background-color: violet;
+    /* display: flex; */
+    margin-inline: 130px;
+}
+
+.photography {
+    margin-bottom: 34px;
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.photography_img_main {
+    width: 66.10%;
+    height: 33.89%;
+    object-fit: cover;
+}
+.photography_img {
+    height: 16.10%;
+    width: 32.20%;
+    object-fit: cover;
+}
+
+.photography_article {
+    display: flex;
+    /* height: 400px; */
+    column-gap: 20px;
+    position: relative;
+    /* margin-inline: 130px; */
+}
+
+.photography_duo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.photography_text_card {
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 59.83%;
+}
+
+.photography_title {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.photography_p {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    line-height: 20px;
+}
+
+footer {
+    width: inherit;
+    margin: auto;
+    background-color: black;
+    padding: 31px 43.95%;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.footer_icon {
+    color: white;
+    font-size: 38px;
+}
+
+.footer_title {
+    color: #FFF;
+    font-family: 'Pridi', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

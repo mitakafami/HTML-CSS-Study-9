@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .third_article {
+        display: none;
+    }
+    .photography_img_main {
+        width: 520px;
+    }
+    .photography_text_card {
+        width: 57.83%;
+    }
+}
