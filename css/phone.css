@@ -1,0 +1,9 @@
+@media (max-width: 375px) {
+    .article_container {
+        flex-wrap: wrap;
+    }
+
+
+
+
+}
