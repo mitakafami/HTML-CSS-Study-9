@@ -2,10 +2,28 @@
     .third_article {
         display: none;
     }
+
     .photography_img_main {
         width: 520px;
     }
+
     .photography_text_card {
         width: 57.83%;
+    }
+
+    .photography_img_1 {
+        position: absolute;
+        left: 61.5%;
+        top: 15%;
+        width: 300px;
+        height: 120px;
+    }
+
+    .photography_img_2 {
+        position: absolute;
+        left: 61.5%;
+        top: 49.5%;
+        width: 300px;
+        height: 120px;
     }
 }
